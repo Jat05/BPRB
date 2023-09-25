@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Personal Portfolio
+        </title>
+    </head>
+    <body>
+        <h1 style="color:whitesmoke; background-color:cadetblue;" >
+            Mia Valverde
+        </h1>
+        <h3 style="color:mediumvioletred; background-color:pink">
+            NJIT <br> UCID: mv456 <br> Bachelor of Architecture</h3>
+        <p style="color:slategrey">
+            I am a first-year architecture student at the New Jersey Institute of Technology. I am 17 years old and I am a recent gradruate from high school <br> 
+            and Bergen Community College, thanks to a program at my school that allowed me to get an associates degree while being in high school. <br>
+            Throuhgout my high school years, I took some art classes and I became very interested in architecture because of them. Also, my uncle was an <br>
+            architect, and his work inspired me to some day do the same things that he did. In the future, I hope to become a licensed architect and work <br>
+             in a field that challenges me creatively and makes me happy. 
+        </p>
+
+        <a href="https://design.njit.edu/bachelor-architecture">NJIT Bachelor of Architecture</a> <br>
+        <br>
+        <img src="archimage.png" alt="architecture image">
+
+    </body>
+</html>
