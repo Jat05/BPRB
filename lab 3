@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+        <title>
+            CS104 class web page
+        </title>
+        <style>
+           
+        </style>
+    </head>
+    <body>
+        <!DOCTYPE html>
+<html>
+    <head>
+        <title>Ashley Tlatenchi</title>
+    </head>
+    <body>
+
+        <h1 style="color:white; background-color: skyblue;" >
+            Welcome Everyone!
+        </h1>
+        <h2>Welcome Everyone!</h2>
+        <h3>Welcome Everyone!</h3>
+        <h4>Welcome Everyone!</h4>
+        <h5>Welcome Everyone!</h5>
+        <h6>Welcome Everyone!</h6>
+        <hr>
+        <p>
+            hi <br> bye
+        </p>
+
+
+        <a href="https://google.com">Google</a> <br>
+        <a href="about.html">About page</a>
+        <br>
+        <img src="uglydog.jpg" alt="sample text">
+
+
+        <hr>
+
+
+        <table style="width:50%">
+            <tr>
+                <th colspam="2">First Name</th>
+                <th>Last Name</th>
+                <th>Program</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Ashley</td>
+                <td>Tlatenchi</td>
+                <td>Interior Design</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>Smith</td>
+            </tr>
+        </table>
+        <hr>
+        <div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Page</a></li>
+                <li><a href="#">Contact Page</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <ol type="I">
+                <li>Orange</li>
+                <li>Apple</li>
+                <li>Mango</li>
+            </ol>
+        </div>
+
+        <p>Hello</p>
+        <p>World</p>
+        <a href="">Home</a>
+    </body>    
+
+    <div style="margin-top: 100px">
+        <form>
+            <label for="Username">Username</label>
+            <input type="text" placeholder="Username">
+            <br>
+            <label for="Password">Password</label>
+            <input type="password" placeholder="Password">
+            <br>
+            <input type="radio" name="course"> Math
+            <input type="radio" name="course"> Computer Science
+            <br>
+            <input type="checkbox"> Math
+            <input type="checkbox"> Computer Science
+            <br>
+            <input type="file">
+            <input type="submit">
+        </form>
+    </div>
+
+</html>
