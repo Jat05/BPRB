@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html> </html>
+<head> Jordan Tejeda</head>
+
+
+<title> Welcome to the Tejeda show </title>
+
+
+</head>
+<body>
+
+
+   <h1>Jordan Tejeda</h1>
+   <h3>NJIT, JAT87, architecture</h3>
+   <p style ="color:blue;">I am Jordan Tejeda, I am 18 years old, <br>I like to go out and eat ice cream.</p>
+<a>https://www.njit.edu/</a>
+
+
+<img src="Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg" alt="Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006" width="500" height="333">
+
+
+<hr>
+<style>
+
+
+    table, th, td {
+      border:1px solid black;
+    }
+    </style>
+    <body>
+        <link rel="stylesheet" href="style.css">
+    <h2>Architecture</h2>
+   
+    <table style="width:100%">
+      <tr>
+        <th>Education</th>
+        <th>Skills</th>
+        <th>Experince</th>
+      </tr>
+      <tr>
+        <td>go to school</td>
+        <td>NA</td>
+        <td>Internship</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>africa</td>
+      </tr>
+    </table>
+   
+    <p>To understand the example better, we have added borders to the table.</p>
+   
+    </body>
+    </html>
+   
+   
+
+
+<table style="width:50%">
+    <tr>
+        <th colspam="2">First Name</th>
+        <th>Last Name</th>
+        <th>Program</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Jordan</td>
+        <td>Tejeda</td>
+        <td>Architecture</td>
+    </tr>
+    <tr>
+        <td>bobby</td>
+        <td>Smurda</td>
+    </tr>
+</table>
+<hr>
+<div>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Page</a></li>
+        <li><a href="#">Contact Page</a></li>
+    </ul>
+</div>
+
+
+
+
+<div>
+    <ol type="I">
+        <li>Orange</li>
+        <li>Apple</li>
+        <li>Mango</li>
+    </ol>
+</div>
+
+
+
+
+<p>Hello</p>
+<p>World</p>
+<a href="">Home</a>
+</body>    
+
+
+
+
+<div style="margin-top: 100px">
+<form>
+    <label for="Username">Username</label>
+    <input type="text" placeholder="Username">
+    <br>
+    <label for="Password">Password</label>
+    <input type="password" placeholder="Password">
+    <br>
+    <input type="radio" name="course"> Math
+    <input type="radio" name="course"> Computer Science
+    <br>
+    <input type="checkbox"> Math
+    <input type="checkbox"> Computer Science
+    <br>
+    <input type="file">
+    <input type="submit">
+</form>
+
+
+</div>
+
+
+</html>
+
+table,th,td{
+    background-color: lightgray;
+    border: 2px solid black;
+    padding: 10ex
+    margin 100px 0px 0px 100px
+}    
+
+
+    /* .demo{
+    width: 300px;
+    height: 300px; */
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: red; */
+    /* border: 2px solid red; */
+    /* border-top: 2px dotted green;
+    } */
+    .demo {
+    width: 300px;
+    border: 2px solid red;
+    /* margin-top: 100px;
+    margin-left: 100px; */
+    margin: 100px 0px 0px 100px;
+    /* padding-left: 30px;
+    padding-top: 20px; */
+    padding: 20px 0px 0px 30px;
+    }
+   
