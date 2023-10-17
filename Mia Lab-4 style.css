@@ -1,0 +1,41 @@
+table,th,td{
+    border: 2px solid black;
+    padding: 10ex
+    margin: 100px 0px 0px 100px
+}    
+th{
+    background-color: lightgray;
+}
+
+.img1{
+    height:150px;
+     width:150px
+}
+.img2{
+    height:1.6in;
+    width:1.6in
+}
+.img3{
+    height:30%;
+    width:30%
+}
+.img1,.img2,.img3{
+    border: 5px dashed red;
+    padding: 30px  
+}
+.p1{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 25px;
+}
+.link1:hover{
+    background-color: red
+}
+.link2:visited{
+    background-color:gray
+}
+.link3:active{
+    background-color:orange;
+}
