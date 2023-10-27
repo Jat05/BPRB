@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+        crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+        crossorigin="anonymous"></script>
+        <title>
+            Personal Portfolio
+        </title>
+    </head>
+    <body>
+        <h1 style="color:whitesmoke; background-color:cadetblue;" >
+            Mia Valverde
+        </h1>
+        <h3 style="color:mediumvioletred; background-color:pink">
+            NJIT <br> UCID: mv456 <br> Bachelor of Architecture</h3>
+        <p style="color:slategrey">
+            I am a first-year architecture student at the New Jersey Institute of Technology. I am 17 years old and I am a recent gradruate from high school <br> 
+            and Bergen Community College, thanks to a program at my school that allowed me to get an associates degree while being in high school. <br>
+            Throuhgout my high school years, I took some art classes and I became very interested in architecture because of them. Also, my uncle was an <br>
+            architect, and his work inspired me to some day do the same things that he did. In the future, I hope to become a licensed architect and work <br>
+             in a field that challenges me creatively and makes me happy. 
+        </p>
+
+        <a href="https://design.njit.edu/bachelor-architecture">NJIT Bachelor of Architecture</a> <br>
+        <br>
+        <img src="archimage.png" alt="architecture image">
+
+        <hr>
+        <div>
+        <table class="table table-bordered table-striped">
+            <tr>
+                <th colspam="2">Education</th>
+                <th>Experience</th>
+                <th>Skills</th>
+            </tr>
+            <tr>
+                <td>High School</td>
+                <td>Retail Work</td>
+                <td>Organizing</td>
+            </tr>
+            <tr>
+                <td>University</td>
+                <td>Internships</td>
+                <td>Computer Programming</td>
+            </tr>
+        </table>
+        </div>
+
+    <div style="margin-top: 50px">
+        <form>
+            <label for="Username">Username</label>
+            <input type="text" placeholder="Username"> 
+            <br>
+            <label for="First Name">First Name</label>
+            <input type="text" placeholder="First Name">
+            <br>
+            <label for="Last Name">First Name</label>
+            <input type="text" placeholder="Last Name">
+            <br>
+            <label for="Email">Email</label>
+            <input type="email" placeholder="Email">
+            <br>
+            <input type="checkbox" name="course"> Math
+            <input type="checkbox" name="course"> Architecture
+            <input type="checkbox" name="course"> Computer Science
+            <br>
+            <input type="radio"> Math
+            <input type="radio"> Architecture
+            <input type="radio"> Computer Science
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+
+    <br>
+
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+             <li><a class="dropdown-item" href="https://www.youtube.com/">Youtube</a></li>
+             <li><a class="dropdown-item" href="https://www.njit.edu/admissions">Admissions</a></li>
+             <li><a class="dropdown-item" href="https://www.instagram.com/?hl=en">Instagram</a></li>
+        </ul>
+      </div>
+
+      <br>
+
+      <div>
+    <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Collapsible</button>
+     <div id="demo" class="collapse">
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+   
+   </div>
+    </body>
+</html>
+
+
