@@ -1,0 +1,45 @@
+</script>
+
+<p id="demo"></p>
+
+</script>
+
+<p id="demo"></p>
+
+<script>
+
+const x = document.getElementById("main");
+const y = x.getElementsByTagName("p");
+
+document.getElementById("demo").innerHTML = 
+"The text from the intro paragraph is: " + element.innerHTML;
+
+document.getElementById("demo").innerHTML = "Hello World!";
+
+
+</script>
+    
+<h1 onclick="changeText(this)">Click on this text!</h1>
+
+<script>
+function changeText(id) {
+  id.innerHTML = "Ooops!";
+}
+</script>
+
+<script>
+  window.addEventListener("resize", function(){
+    document.getElementById("demo").innerHTML = Math.random();
+  });
+
+  element.addEventListener("mouseover", myFunction);
+element.addEventListener("click", mySecondFunction);
+element.addEventListener("mouseout", myThirdFunction);
+
+  </script>
+  
+  <h1 id="id1">My Heading 1</h1>
+
+  <button type="button"
+  onclick="document.getElementById('id1').style.color = 'red'">
+  Click Me!</button>=
